@@ -7,7 +7,7 @@ It is intended as an exercise which will bring the previous three weeks together
 But a few new things will be thrown in along the way:
 
 * Since we will be deploying in the cloud, the app should be usable from both a laptop and from a mobile phone. For that we will take a look at **bootstrap**.
-* We will try some simple tricks in **javascript and HTML5** to make the userinterface a bit nicer
+* We will try some simple tricks in **javascript and html5** to improve the user interface a bit
 * The web-app should be deployed on digital ocean. The source code however should be handed-in by putting it on **github**.
 
 # Weekplan
@@ -17,7 +17,7 @@ Day | Topic
 Monday | Cupcake project and github
 Tuesday | Bootstrap 
 Wednesday |Javascript
-Thursday | Cupcake project and Evaluation
+Thursday | Cupcake project
 Friday | Cupcake project
 
 # Readings
@@ -29,18 +29,18 @@ Friday | Cupcake project
 ##Javascript
 * W3Schools Javascript tutorial [w3schools](https://www.w3schools.com/js/default.asp)
 
-# Cupcake mini project
+# Cupcake project
 ![](CupcakeImage.jpg)
 
 <table><tr><td>
-This assignment is to be carried out individually or in pairs. (If you work together, you have to take turns at the keyboard distributing time evenly)<br>You must hand in a link to a github repository with a web application and an .sql file (This is the file that creates the tables with their constraints and fill in some sample data).<br></td></tr></table>
+This assignment is to be carried out individually or in pairs.<br>You must hand in a link to a github repository with a web application and an .sql file.<br></td></tr></table>
 
-###Hand in: Sunday 05 March 2017 at 16.00
-Hand in is done by uploading a text file to the moodleroom with:
+###Hand in dead line: Sunday 05 March 2017 at 23.59
+Hand in is done by uploading a text file to moodleroom with:
 
 * Full name of who is behind this submission
 * Link to the deployed webapp on digital ocean
-* Link to the github project 	containing the sourcecode of the project
+* Link to the github project containing the sourcecode and sql file of the project
 
 #Web shopYou are to develop a simple web-shop using HTML, JSP, javascript and java Servlets. Data should be stored in a MySQL database.The web shop sells cupcakes, but only as pick-up. Customers can use the web shop to place an order and then show up in person to pick up the cupcakes. Sending cupcakes in the mail has shown to be a bad idea as they turn up with bite marks if at all.The bakery has a very fast cup cake-machine, so the instant the order is placed the cup cakes are ready for pickup.The cupcakes have a bottom and a topping which can be combined in many ways, but a cup cake must always have both a bottom and a topping. Bottoms and toppings can be found in appendix A.Costumers each have an account with the shop and orders can only be placed if the account hold enough money to cover the price. Payment is handled by another system and as of now customers deposits will have to be added manually in the database, but withdrawals happen when cupcakes are ordered.In order to pay with their account the costumers will have to use a username and a password to login before placing an order.#Lets break it down:##1 Connect to databaseCreate a web application with a class which is responsible for the database connection. This class holds all the information needed to make a connection.##2 LoginCreate a database and add a user table. A user has a username, a password and a balance.You will need a User class to hold the user information when it has been fetched from the database.Create a class that contains all methods that communicate with the database. In this class create a method, which takes a username sends a query to the database and then returns the corresponding user object if it exists.
 
