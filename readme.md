@@ -36,7 +36,7 @@ Friday | Cupcake project
 This assignment is to be carried out individually or in pairs.<br>You must hand in a link to a github repository with a web application and an .sql file.<br></td></tr></table>
 
 ###Hand in dead line: Sunday 05 March 2017 at 23.59
-Hand in is done by uploading a text file to moodleroom with:
+Hand in is done by uploading a text file to the 2Sem moodleroom with:
 
 * Full name of who is behind this submission
 * Link to the deployed webapp on digital ocean
