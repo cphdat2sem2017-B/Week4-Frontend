@@ -15,8 +15,8 @@ But a few new things will be thrown in along the way:
 Day | Topic
 ---|---
 Monday | Cupcake project and github
-Tuesday | Bootstrap 
-Wednesday |Javascript
+Tuesday | Backend 
+Wednesday | Bootstrap / Javascript
 Thursday | Cupcake project
 Friday | Cupcake project
 
