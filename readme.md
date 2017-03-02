@@ -17,7 +17,7 @@ Day | Topic
 Monday | Cupcake project and github
 Tuesday | Backend 
 Wednesday | Bootstrap / Javascript
-Thursday | Cupcake project
+Thursday | Cupcake project / Evaluation
 Friday | Cupcake project
 
 # Readings
