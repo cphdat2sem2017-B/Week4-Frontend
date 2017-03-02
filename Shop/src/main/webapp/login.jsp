@@ -16,7 +16,7 @@
         
         <jsp:include page='menu.html'></jsp:include>
         
-        <form action="Controller" method="POST">
+        <form action="Controller" method="post">
             
             <input type="hidden" name="origin" value="login">
             

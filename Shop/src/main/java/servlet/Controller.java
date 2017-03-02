@@ -57,6 +57,19 @@ public class Controller extends HttpServlet
                 }
 
                 break;
+                
+            case "order":
+
+                String[] topids = request.getParameterValues("cakestopid");
+                String[] bottomids = request.getParameterValues("cakesbottomid");
+                String[] quantities = request.getParameterValues("cakesquantity");
+                
+                for(int i = 0; i < topids.length; i++)
+                {
+                    System.out.println(topids[i] + bottomids[i] + quantities[i]);
+                }
+
+                break;
         }
     }
 

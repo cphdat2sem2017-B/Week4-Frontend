@@ -1,3 +1,6 @@
+mapper\CakeMapper.class
+entity\Top.class
+entity\Bottom.class
 servlet\Controller.class
 mapper\CustomerMapper.class
 entity\Customer.class
